@@ -1,0 +1,19 @@
+POST http://localhost:4000/api/todos/createTodo
+Content-Type: application/json
+
+{
+    "text":"Buy Bread"
+}
+
+###
+
+GET http://localhost:4000/api/todos/allTodos
+
+###
+
+PUT http://localhost:4000/api/todos/completeTodo/63a0b71e2e7594158b216f9b
+
+###
+
+DELETE http://localhost:4000/api/todos/deleteTodo/63a0b7df2e7594158b216f9d
+
